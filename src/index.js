@@ -24,7 +24,7 @@ const authLink = setContext(async (_, { headers }) => {
 });
 
 const UploadClient = createUploadLink({
-  uri: "",
+  uri: "http://ec2-18-219-4-4.us-east-2.compute.amazonaws.com:3301/graphql",
 });
 
 //client created
